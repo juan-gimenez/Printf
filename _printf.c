@@ -8,37 +8,34 @@
 int _printf(const char *format, ...)
 {
 	va_list ad;
-	int i, j = 0;
-	int s = _strlen(format);
+	unsigned int i, j = 0;
 	formatprints formats[] = {
-        {"c", print_char},
-        {"s", print_string},
-        {NULL, NULL}
-};
+		{"%", NULL},
+        	{"c", print_char},
+        	{"s", print_string},
+        	{NULL, NULL}
+	};
+
 	va_start(ad, format);
 	
-	i = 0;
-
-	while (i < s)
+	while (format != NULL && format[j] != '\0')
 	{
-		if (format[i] == '%')
-		{
-			i++;
-			while (formats[j].lf != NULL)
+		i = 0;
+			if (formats[i].lf[0] != format[j])
 			{
-				if (format[i] == formats[j].lf[0])
-				{
-					formats[i].f(ad);
-				}
-				j++;
+				_putchar(format[j]);
 			}
-		}
-		else
-		{
-			_putchar(format[i]);
-		}
-
-		i++;
+			else
+			{	
+				j++;
+				while (format[j] != formats[i].lf[0] && formats[i].lf[0] != 0)
+				{
+					i++;
+					if (format[j] == formats[i].lf[0])
+						formats[i].f(ad);
+				}
+			}
+		j++;
 	}
 
 	va_end(ad);
