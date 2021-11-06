@@ -1,10 +1,11 @@
 #include "main.h"
 
-int _strlen(char *s)
+int _strlen(const char *s)
 {
-	int i;
+	int string = 0;
 
-	for (i = 0; s[i] != 0; i++)
-	
-	return (i - 1);
+	while (*(s + string) != 0)
+		string++;
+
+	return (string);
 }
