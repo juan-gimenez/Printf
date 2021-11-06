@@ -2,7 +2,7 @@
 
 int main(void)
 {
-
-	_printf("hola, rip");
+	char *s = "hola";
+	_printf("hola %s, rip", s);
 	return (1);
 }
