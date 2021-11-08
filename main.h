@@ -1,6 +1,5 @@
 #ifndef _HEADER_
 #define _HEADER_
-#define MY_BUFFER_SIZE 1024
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>

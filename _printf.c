@@ -43,6 +43,7 @@ int _printf(const char *format, ...)
 			}
 		}
 	}
+
 	va_end(ad);
 	return (count);
 }
