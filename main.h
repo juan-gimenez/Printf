@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
+#define MY_BUFFER_SIZE 1024
 
 /**
  *
