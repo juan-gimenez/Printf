@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * printf - our own printf.
- *@
- *Return: 
+ * _printf - our own printf.
+ *@format: format specified
+ * ... - arguments passed
+ *Return: number of bytes printed
  */
-
 int _printf(const char *format, ...)
 {
 	va_list ad;
@@ -14,14 +14,14 @@ int _printf(const char *format, ...)
 
 	va_start(ad, format);
 
-	for (;format[i] != 0; i++)
+	for (; format[i] != 0; i++)
 	{
 		if (format[i] != '%')
 		{
 			_putchar(format[i]);
 			count++;
 		}
-		else 
+		else
 		{
 			i++;
 			switch (format[i])
@@ -40,7 +40,7 @@ int _printf(const char *format, ...)
 			}
 		}
 	}
-	printf("%d\n",count);
+	printf("%d\n", count);
 	printf("%i\n", count);
 	return (count);
 }
