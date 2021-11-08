@@ -13,7 +13,7 @@ int _printf(const char *format, ...)
 	unsigned int count = 0;
 	unsigned int i = 0;
 
-	if (format)
+	if (format[i])
 	{
 		va_start(ad, format);
 
