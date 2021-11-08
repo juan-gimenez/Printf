@@ -2,9 +2,8 @@
 
 int main(void)
 {
-	char *c = "Amigos de Youtube!";
-	int d = 15;
-
-	_printf("hola %s, este es mi tutorial numero %d\n", c, d);
+	char *c = "9210";
+	char d = '5';
+	_printf("hola%s, sos%c\n", c, d);
 	return (1);
 }

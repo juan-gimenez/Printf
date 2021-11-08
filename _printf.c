@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdarg.h>
 
 /**
  * _printf - our own printf.
@@ -17,8 +16,7 @@ int _printf(const char *format, ...)
 	if (format)
 	{
 		va_start(ad, format);
-		if (ad == NULL)
-			return (-1);
+
 		for (; format[i] != 0; i++)
 		{
 			if (format[i] != '%')
