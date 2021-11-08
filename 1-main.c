@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	char *s = "hola";
-	_printf("hola s, rip", s);
+	char *c = "perra loca";
+	_printf("hola %s, %% rip\n", c);
 	return (1);
 }
