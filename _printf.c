@@ -14,41 +14,41 @@ int _printf(const char *format, ...)
   unsigned int count = 0;
   unsigned int i = 0;
   
-  if (format)
+if (format)
     {
-	    va_start(ad, format);
-	    if (ad == NULL)
-	      return (-1);
-	    for (; format[i] != 0; i++)
-	      {
-		if (format[i] != '%')
-		  {
-		    _putchar(format[i]);
-		    count++;
+      va_start(ad, format);
+      if (ad == NULL)
+	return (-1);
+      for (; format[i] != 0; i++)
+	{
+	  if (format[i] != '%')
+	    {
+	      _putchar(format[i]);
+	      count++;
 		  }
-		else
-		  {
-		    i++;
-			switch (format[i])
-
-			{
-			case 'c':
-				print_char(ad);
-				count++;
+	  else
+	    {
+	      i++;
+	      switch (format[i])
+		
+		{
+		case 'c':
+		  print_char(ad);
+		  count++;
 				break;
-			case 's':
-				count += print_string(ad);
-				break;
+		case 's':
+		  count += print_string(ad);
+		  break;
 			case 'd':
-				count += print_decimal(ad);
-			break;
-			default:
+			  count += print_decimal(ad);
+			  break;
+		default:
 			 count += _putchar(format[i]);
-			}
-		  }
-		else
-		  return(-1);
-	      }
+		}
+	    }
+	  else
+	    return(-1);
+	}
     }
 }
 
