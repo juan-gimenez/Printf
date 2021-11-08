@@ -4,6 +4,7 @@
  *@ad: argument value.
  *Return: 1 for char.
  */
+
 int print_char(va_list ad)
 {
 	char c = va_arg(ad, int);
