@@ -1,11 +1,12 @@
 #include "main.h"
+
 /**
  * print_decimal - prints a decimal or integer.
  *@ad: argument value.
  *Return: no of bytes.
  */
 
-int print_decimal(va_list ad)
+int print_decimal(va_list ad, int n)
 {
 	unsigned int i = 0;
 	char *s;
