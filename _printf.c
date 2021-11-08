@@ -9,6 +9,7 @@ int _printf(const char *format, ...)
 {
 	va_list ad;
 	unsigned int i, j = 0;
+	
 	formatprints formats[] = {
 		{"%", NULL},
         	{"c", print_char},
