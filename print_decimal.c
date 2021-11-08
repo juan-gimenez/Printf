@@ -5,7 +5,14 @@
 
 int print_decimal(va_list ad)
 {
-	int i;
+	unsigned int i = 0;
+	char *s;
+	s = va_arg(ad, char *);
 
-	write(i);
+	while (s[i])
+	{	
+		_putchar(s[i]);
+		i++;
+	}
+	return (i);
 }

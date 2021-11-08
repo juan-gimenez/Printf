@@ -2,8 +2,8 @@
 
 /**
  * printf - our own printf.
- *@
- *Return: 
+ *@format: printf
+ *Return: 1
  */
 
 int _printf(const char *format, ...)
@@ -34,7 +34,8 @@ int _printf(const char *format, ...)
 				count += print_string(ad);
 				break;
 			case 'd':
-				count += print_decimal();
+				count += print_decimal(ad);
+				break;
 			default:
 				_putchar(format[i]);
 			}
