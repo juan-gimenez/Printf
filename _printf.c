@@ -13,8 +13,6 @@ int _printf(const char *format, ...)
 	unsigned int count = 0;
 	unsigned int i = 0;
 
-	if (format != NULL && format[i] != '\0')
-	{
 		va_start(ad, format);
 		if (ad == NULL)
 			return (-1);
@@ -37,9 +35,12 @@ int _printf(const char *format, ...)
 					case 's':
 						count += print_string(ad);
 						break;
-					case 'd':
+					case 'd' || 'i':
 						count += print_decimal(ad);
 						break;
+					case '%':
+						count += _putchar(format[i]);
+						i += 2;
 					default:
 						count += _putchar(format[i]);
 				}
