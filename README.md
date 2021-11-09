@@ -12,7 +12,14 @@ Options:
 
 Just to clarify our _printf does not work exactly as printf in several cases however in general it works properly.
 
+Compilation
+>gcc -Wall -Werror -Wextra -pedantic *.c
+
 :hourglass: Duration of the project: 5 days
 
+Suggestions:
+If you have any adive/suggestion please let us know.
+
 :computer: Made by Diego Merentiel and Juan Giménez.
+
 Thank you for reading this Readme :eyes:.
