@@ -63,7 +63,6 @@ int main(void)
     printf("\n---------------\n");
     printf("Test 4");
     printf("\nexpected: ");
-    a = printf(NULL);
     printf("\nobtained: ");
     fflush(stdout);
     b = _printf(NULL);
@@ -119,7 +118,6 @@ int main(void)
     printf("\n---------------\n");
     printf("Test 11");
     printf("\nexpected: ");
-    a = printf(NULL);
     printf("\nobtained: ");
     fflush(stdout);
     b = _printf(NULL);
@@ -237,7 +235,6 @@ int main(void)
     printf("\n---------------\n");
     printf("Test 25");
     printf("\nexpected: ");
-    a = printf("%s", NULL);
     printf("\nobtained: ");
     fflush(stdout);
     b = _printf("%s", NULL);
@@ -245,7 +242,6 @@ int main(void)
     printf("\n---------------\n");
     printf("Test 26");
     printf("\nexpected: ");
-    a = printf("Le dicen %c%c la rompe corazones, %s %s", 'l', 'a', "falsas", NULL);
     printf("\nobtained: ");
     fflush(stdout);
     b = _printf("Le dicen %c%c la rompe corazones, %s %s", 'l', 'a', "falsas", NULL);
