@@ -17,11 +17,9 @@ int _printf(const char *format, ...)
 	{
 		va_start(ad, format);
 		if (ad == NULL)
-		  return (-1);
-
+			return (-1);
 		if (format == NULL || (format[0] == '%' && format[1] == '\0'))
-		  return (-1);
-		
+			return (-1);
 		for (; format[i] != 0; i++)
 		{
 			if (format[i] != '%')
@@ -42,13 +40,8 @@ int _printf(const char *format, ...)
 					case 'd':
 						count += print_decimal(ad);
 						break;
-					case '\0':
-						break;
-					case ' ':
-						return (-1);
-						break;
 					default:
-					        count += _putchar(format[i]);
+						count += _putchar(format[i]);
 				}
 			}
 		}
