@@ -11,7 +11,7 @@ int print_string(va_list ad)
 	unsigned int i = 0;
 
 	s = va_arg(ad, char *);
-	
+
 	if (s == NULL)
 		s = "(null)";
 
