@@ -6,7 +6,7 @@ Our own printf function in c. Which is basically an imitation of the printf() fu
 
 Developed in c using text editors such as emacs and vi :eyes:.
 
-(https://www.clipartmax.com/png/middle/240-2409409_c-programming-icon-c-programming-language-icon.png)
+https://www.clipartmax.com/png/middle/240-2409409_c-programming-icon-c-programming-language-icon.png
 
 Options:
 
