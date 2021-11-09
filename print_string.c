@@ -10,9 +10,9 @@ int print_string(va_list ad)
 	char *s;
 	unsigned int i = 0;
 
-	s = va_arg(ad, char *);
-	if (ad == NULL)
-		return (-1);
+	if (ad != NULL)
+		s = va_arg(ad, char *);
+
 	while (s[i] != 0)
 		i++;
 

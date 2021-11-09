@@ -2,8 +2,6 @@
 
 int main(void)
 {
-	char *c = "9210";
-	char d = '5';
-	_printf("hola%s, sos%c\n", c, d);
+	_printf("%s");
 	return (1);
 }
