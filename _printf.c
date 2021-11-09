@@ -4,7 +4,7 @@
  * _printf - our own printf.
  *@format: format specified
  * ... - arguments passed
- *Return: number of bytes printed1
+ *Return: number of bytes printed
  */
 
 int _printf(const char *format, ...)

@@ -6,7 +6,7 @@
  *Return: no of bytes.
  */
 
-int print_decimal(va_list ad, int n)
+int print_decimal(va_list ad)
 {
 	unsigned int i = 0;
 	char *s;
