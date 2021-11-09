@@ -38,10 +38,6 @@ int _printf(const char *format, ...)
 					case 'd':
 						count += print_decimal(ad);
 						break;
-					case '%':
-						count += _putchar(format[i]);
-						i += 2;
-						break;
 					default:
 						count += _putchar(format[i]);
 				}
