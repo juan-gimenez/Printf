@@ -7,15 +7,30 @@
  */
 int print_decimal(va_list ad)
 {
-	char *s;
-	unsigned int i = 0;
+	unsigned int abs, aux, num, cuenta;
+	int n;
 
-	s = va_arg(ad, char *);
-	if (ad == NULL)
-		return (-1);
-	while (s[i] != 0)
-		i++;
+	cuenta = 0;
+	n = va_arg(ad, int);
+	if (n < 0)
+	{
+		abs = (n * -1);
+		cuenta += _putchar('-');
+	}
+	else
+		abs = n;
 
-	write(1, s, (i));
-	return (i);
+	aux = abs;
+	num = 1;
+	while (aux > 9)
+	{
+		aux /= 10;
+		num *= 10;
+	}
+	while (num >= 1)
+	{
+		cuenta += _putchar(((abs / num) % 10) + '0');
+		num /= 10;
+	}
+	return (cuenta);
 }

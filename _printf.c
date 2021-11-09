@@ -18,7 +18,7 @@ int _printf(const char *format, ...)
 			return (-1);
 		if (format == NULL || (format[0] == '%' && format[1] == '\0'))
 			return (-1);
-		for (; format[i] != '\0' && format != NULL; i++)
+		for (; format && format[i] != '\0'; i++)
 		{
 			if (format[i] != '%')
 			{
@@ -36,6 +36,9 @@ int _printf(const char *format, ...)
 						count += print_string(ad);
 						break;
 					case 'd':
+						count += print_decimal(ad);
+						break;
+					case 'i':
 						count += print_decimal(ad);
 						break;
 					default:
