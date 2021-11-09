@@ -1,11 +1,10 @@
 # Name: Printf Project
 ## Description:
-Our own printf function in c. Which is basically an imitation of the printf() function in c
+Our own printf function in c. Which is basically an imitation of the printf() function in c which prints according to the format specified using the % simbol.
 Developed in c.
-![C programming language](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.toptal.com%2Fc%2Fafter-all-these-years-the-world-is-still-powered-by-c-programming&psig=AOvVaw0Aj7gi2SGEzBv_azYh4Zfk&ust=1636586349282000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiOj7W1jPQCFQAAAAAdAAAAABAD)
-Using text editors such as emacs and vi
-![Emacs](https://ia.wikipedia.org/wiki/File:EmacsIcon.svg)
-![Vi:unamused:](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVim_(text_editor)&psig=AOvVaw3KClQVBrkd9SSDXCfNOmtX&ust=1636586555595000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDmwZW2jPQCFQAAAAAdAAAAABAD)
+![C]
+(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.clipartmax.com%2Fmiddle%2Fm2H7K9H7A0H7G6N4_c-programming-icon-c-programming-language-icon%2F&psig=AOvVaw2KH-CLr-ld9in78hCWSL_a&ust=1636587201911000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCYhtW4jPQCFQAAAAAdAAAAABAD)
+Using text editors such as emacs and vi :eyes:
 
 ## :hourglass: Duration of the project: 5 days
 
