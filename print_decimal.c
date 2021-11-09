@@ -5,7 +5,7 @@
  *@ad: argument
  *Return: no of characters.
  */
-int print_string(va_list ad)
+int print_decimal(va_list ad)
 {
         char *s;
         unsigned int i = 0;
