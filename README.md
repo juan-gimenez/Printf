@@ -7,7 +7,7 @@ Using text editors such as emacs and vi
 ![Emacs](https://ia.wikipedia.org/wiki/File:EmacsIcon.svg)
 ![Vi:unamused:](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVim_(text_editor)&psig=AOvVaw3KClQVBrkd9SSDXCfNOmtX&ust=1636586555595000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDmwZW2jPQCFQAAAAAdAAAAABAD)
 
-##:hourglass: Duration of the project: 5 days
+## :hourglass: Duration of the project: 5 days
 
 ## :computer: Made by Diego Merentiel and Juan Giménez.
 Thank you for reading this Readme :eyes:.
