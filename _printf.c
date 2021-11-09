@@ -35,11 +35,14 @@ int _printf(const char *format, ...)
 						count += print_string(ad);
 						break;
 					case 'd':
-						count += print_decimal(ad);
-						break;
-					default:
-					  count += _putchar('%');
-					  count += _putchar(format[i]);
+					  count += print_decimal(ad);
+					  break;
+				        case '\0':
+				        case ' ':
+				                return (-1);
+				                break;
+					        default:
+					        count += _putchar(format[i]);
 						
 				}
 			}
