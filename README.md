@@ -5,8 +5,8 @@
 Our own printf function in c. Which is basically an imitation of the printf() function in c which prints according to the format specified using the % simbol.
 
 Developed in c using text editors such as emacs and vi :eyes:.
-![C]
-(https://www.clipartmax.com/png/middle/240-2409409_c-programming-icon-c-programming-language-icon.png)
+
+!(https://www.clipartmax.com/png/middle/240-2409409_c-programming-icon-c-programming-language-icon.png)
 
 Options:
 
