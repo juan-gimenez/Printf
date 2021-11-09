@@ -38,8 +38,8 @@ int _printf(const char *format, ...)
 					  count += print_decimal(ad);
 					  break;
 				        case '\0':
-				        case ' ':
-				                return (-1);
+				case ' ':
+				  return (-1);
 				                break;
 					        default:
 					        count += _putchar(format[i]);
