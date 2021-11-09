@@ -35,7 +35,7 @@ int _printf(const char *format, ...)
 					case 's':
 						count += print_string(ad);
 						break;
-					case 'd' || 'i':
+					case 'd':
 						count += print_decimal(ad);
 						break;
 					case '%':
