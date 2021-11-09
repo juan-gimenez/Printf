@@ -6,9 +6,10 @@ Our own printf function in c. Which is basically an imitation of the printf() fu
 
 Developed in c using text editors such as emacs and vi :eyes:.
 ![C]
-(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.clipartmax.com%2Fmiddle%2Fm2H7K9H7A0H7G6N4_c-programming-icon-c-programming-language-icon%2F&psig=AOvVaw2KH-CLr-ld9in78hCWSL_a&ust=1636587201911000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCYhtW4jPQCFQAAAAAdAAAAABAD)
+(https://www.clipartmax.com/png/middle/240-2409409_c-programming-icon-c-programming-language-icon.png)
 
 Options:
+
 Just to clarify our _printf does not work exactly as printf in several cases however in general it works properly.
 
 :hourglass: Duration of the project: 5 days
