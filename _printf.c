@@ -41,12 +41,12 @@ int _printf(const char *format, ...)
 					case '%':
 						count += _putchar(format[i]);
 						i += 2;
+						break;
 					default:
 						count += _putchar(format[i]);
 				}
 			}
 		}
-	}
 	va_end(ad);
 	return (count);
 }
