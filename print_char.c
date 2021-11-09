@@ -10,9 +10,9 @@ int print_char(va_list ad)
 	char c = va_arg(ad, int);
 
 	if (c == '\0')
-		return(0);
+		return (0);
 
 	_putchar(c);
-	
+
 	return (1);
 }

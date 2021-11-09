@@ -1,6 +1,6 @@
 .TH test.sh 1
 .SH NAME
-printf \- 
+printf \-
 .SH SYNOPSIS
 .B printf
 
