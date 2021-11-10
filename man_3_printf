@@ -9,11 +9,16 @@ printf \-
 This is a the man page for our own printf function in c which prints according to the format specifier passed to it and if not format is specified, simply prints the input itself.
 .SH OPTIONS
 .TP
-.BR (option)
-what the option does
+.BR %c
+takes a char as an argument and print it
 .TP
-.BR (option)
-what the option does
+.BR %s
+takes a string as an argument and print it
+.TP
+.BR
+%d
+takes a number as an argument and print it
+.TP
 
 .SH COPYRIGHT
 .PP
