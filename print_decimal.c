@@ -7,15 +7,15 @@
  */
 int print_decimal(va_list ad)
 {
-	unsigned int abs, aux, num, cuenta;
+	unsigned int abs, aux, num, chars;
 	int n;
 
-	cuenta = 0;
+	chars = 0;
 	n = va_arg(ad, int);
 	if (n < 0)
 	{
 		abs = (n * -1);
-		cuenta += _putchar('-');
+	chars += _putchar('-');
 	}
 	else
 		abs = n;
@@ -29,8 +29,8 @@ int print_decimal(va_list ad)
 	}
 	while (num >= 1)
 	{
-		cuenta += _putchar(((abs / num) % 10) + '0');
+		chars += _putchar(((abs / num) % 10) + '0');
 		num /= 10;
 	}
-	return (cuenta);
+	return (chars);
 }
